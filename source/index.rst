@@ -17,6 +17,7 @@ Hoffman2 Cluster User Guide
    intro/intro
    access/index.rst
    computing/index
+   programming/index
    data_storage/index
    file_transfer/index
    software/index

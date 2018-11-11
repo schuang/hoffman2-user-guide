@@ -3,6 +3,9 @@
 Hoffman2 Cluster User Guide
 =======================================================
 
+.. attention::
+   This is a prototype page, not a real site.
+
 .. note::
    * New classes for Winter 2019 
    * New Application installed

@@ -11,17 +11,20 @@ Hoffman2 Cluster User Guide
    * New Application installed
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Contents:
 
-   intro/intro
-   access/index
-   computing/index
-   running_jobs/index
-   programming/index
-   data_storage/index
-   file_transfer/index
-   software/index
+   intro/intro.rst
+   access/index.rst
+   env_modules/index.rst
+   running_jobs/index.rst
+   programming/index.rst
+   data_storage/index.rst
+   file_transfer/index.rst
+   software/index.rst
+   advanced/index.rst
+
+   tutorials/index.rst
 
 
 .. Indices and tables

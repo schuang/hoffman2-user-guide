@@ -1,6 +1,8 @@
 Access
 ================
 
+.. contents::
+   :local:
 
 Text terminal
 ---------------------

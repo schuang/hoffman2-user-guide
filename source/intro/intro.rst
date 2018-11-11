@@ -1,12 +1,9 @@
 Intruduction
 ==================
 
+.. toctree::
+   :glob:
 
-
-Getting Started
----------------------------
-
-
-
-Security Policy
----------------------------
+   getting_started_guide.rst
+   security_policy.rst
+   summary.rst

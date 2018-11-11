@@ -1,4 +1,4 @@
-Job Policy
+Scheduling policy
 ==================
 
 

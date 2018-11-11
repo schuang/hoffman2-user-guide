@@ -7,9 +7,9 @@ This is the computing section.
    :maxdepth: 3
    :caption: Contents:
 
-   job-policy
-   using-scheduler
-   job-script-examples
-   high-priority-jobs 
-   interactive-jobs
-   gpu-computing
+   sched-policy.rst
+   using-scheduler.rst
+   job-script-examples.rst
+   high-priority-jobs.rst
+   interactive-jobs.rst
+   gpu-computing.rst

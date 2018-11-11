@@ -15,9 +15,10 @@ Hoffman2 Cluster User Guide
    :caption: Contents:
 
    intro/intro
-   access/index.rst
+   access/index
    computing/index
    running_jobs/index
+   programming/index
    data_storage/index
    file_transfer/index
    software/index

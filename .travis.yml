@@ -14,7 +14,7 @@ after_success:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $token # set in the Travis dashboard
+  github_token: $token
   local_dir: build/html
   on:
     branch: master

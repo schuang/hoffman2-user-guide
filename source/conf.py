@@ -78,6 +78,7 @@ pygments_style = 'sphinx'
 #
 html_theme = 'alabaster'
 html_theme = 'sphinxdoc'
+html_theme = 'sphinx_rtd_theme'
 #html_theme = 'bizstyle'
 
 # Theme options are theme-specific and customize the look and feel of a theme

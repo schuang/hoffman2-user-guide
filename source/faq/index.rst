@@ -1,3 +1,6 @@
+.. _label-faq:
+
+
 Frequently Asked Questions
 ====================================
 

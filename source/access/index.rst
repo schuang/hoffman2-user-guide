@@ -4,12 +4,7 @@ Access
 .. contents::
    :local:
 
-Text terminal
----------------------
+.. toctree::
 
-
-
-Graphical Environment
-------------------------
-
-
+    text-terminal.rst
+    graphical-terminal.rst

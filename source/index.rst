@@ -26,6 +26,7 @@ Hoffman2 Cluster User Guide
 
    tutorials/index.rst
 
+See also the :ref:`label-faq`.
 
 .. Indices and tables
 .. ==================

@@ -10,6 +10,9 @@ This is the computing section.
    sched-policy.rst
    using-scheduler.rst
    job-script-examples.rst
+   seq-jobs.rst
+   smp-jobs.rst
+   mpi-jobs.rst
    high-priority-jobs.rst
    interactive-jobs.rst
    gpu-computing.rst

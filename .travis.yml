@@ -21,7 +21,7 @@ deploy:
   notifications:
     email:
       recipients:
-        - huangsc@gmail.com
+        - nobody@localhost
       on_success: never
       on_failure: always
 

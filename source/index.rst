@@ -7,7 +7,7 @@ Hoffman2 Cluster User Guide
    This is a prototype page, not a real site.
 
 .. note::
-   * New classes for Winter 2019 
+   * New classes for 2020
    * New Application installed
 
 .. toctree::

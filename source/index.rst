@@ -9,6 +9,7 @@ Hoffman2 Cluster User Guide
 .. note::
    * New classes for 2020
    * New Application installed
+   * `PDF version <Hoffman2ClusterUserGuide.pdf>`_
 
 .. toctree::
    :maxdepth: 2

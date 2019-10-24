@@ -1,0 +1,15 @@
+# This file is a template, and might need editing before it works on your project.
+# Full project: https://gitlab.com/pages/doxygen
+image: alpine
+
+pages:
+  script:
+    - pip install -U pip
+    - pip install -r requirements.txt
+    - make html
+    - mv build/html/ public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

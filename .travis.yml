@@ -9,6 +9,7 @@ install:
 - pip install -r requirements.txt
 script:
 - make html
+- make latexpdf
 after_success:
   #test the docs
 deploy:

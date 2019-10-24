@@ -1,4 +1,4 @@
-# Hoffman2 User Guide
+# Hoffman2 User Guide (experimantal)
 
 [![Build Status](https://travis-ci.com/schuang/hoffman2-user-guide.svg?branch=master)](https://travis-ci.com/schuang/hoffman2-user-guide)
 

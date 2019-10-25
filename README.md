@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/schuang/hoffman2-user-guide.svg?branch=master)](https://travis-ci.com/schuang/hoffman2-user-guide)
 
+[![pipeline status](https://gitlab.com/huangsc/hoffman2-user-guide/badges/master/pipeline.svg)](https://gitlab.com/huangsc/hoffman2-user-guide/commits/master)
+
 ## How to update the contents
 
 - The ./source directory contains all of the source files:

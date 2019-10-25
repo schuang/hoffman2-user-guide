@@ -16,7 +16,7 @@ See [Sphinx's documentation](http://www.sphinx-doc.org/en/master/) for details
 
 - Use continuous integration to rebuild the web pages when there is a change.
 - When a commit enters the master branch, rebuilding is automatically triggered. Usually it takes a few minutes to complete.
-- CI is supported by Travis CI (travis.yml) and Gitlab pipeline (gitlab-ci.yml).
+- CI is supported by Travis CI (.travis.yml) and Gitlab pipeline (.gitlab-ci.yml).
 - The CI build status is displayed by the rectangular badges on the top of this file.
 
 

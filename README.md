@@ -9,14 +9,15 @@ Gitlab Pipeline: [![pipeline status](https://gitlab.com/huangsc/hoffman2-user-gu
 - The ./source directory contains all of the source files:
   - configuration file for Sphinx
   - All .rst (restructuredText) files are the texts for the pages, organized by chapters
-- See Sphinx's manual
 
-## Continguous integration
+See [Sphinx's documentation](http://www.sphinx-doc.org/en/master/) for details
 
-- Travis CI is used for contiguous integration, i.e. to rebuild the web pages when there is a change.
-- When a commit enters the master branch, the rebuilding the web pages is triggered. Usually it takes a few minutes to complete.
-- The build status is displayed by the rectangular icons on the top of this page.
+## Continuous integration
 
+- Use continuous integration to rebuild the web pages when there is a change.
+- When a commit enters the master branch, rebuilding is automatically triggered. Usually it takes a few minutes to complete.
+- CI is supported by Travis CI (travis.yml) and Gitlab pipeline (gitlab-ci.yml).
+- The CI build status is displayed by the rectangular badges on the top of this file.
 
 
 

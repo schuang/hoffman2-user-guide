@@ -1,8 +1,8 @@
 # Hoffman2 User Guide (experimantal)
 
-[![Build Status](https://travis-ci.com/schuang/hoffman2-user-guide.svg?branch=master)](https://travis-ci.com/schuang/hoffman2-user-guide)
+Travis CI: [![Build Status](https://travis-ci.com/schuang/hoffman2-user-guide.svg?branch=master)](https://travis-ci.com/schuang/hoffman2-user-guide)
 
-[![pipeline status](https://gitlab.com/huangsc/hoffman2-user-guide/badges/master/pipeline.svg)](https://gitlab.com/huangsc/hoffman2-user-guide/commits/master)
+Gitlab Pipeline: [![pipeline status](https://gitlab.com/huangsc/hoffman2-user-guide/badges/master/pipeline.svg)](https://gitlab.com/huangsc/hoffman2-user-guide/commits/master)
 
 ## How to update the contents
 

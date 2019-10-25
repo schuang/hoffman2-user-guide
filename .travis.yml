@@ -11,6 +11,7 @@ install:
 script:
 - make html
 - make latexpdf
+- cp build/latex/*.pdf build/html
 after_success:
   #test the docs
 deploy:

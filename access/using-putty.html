@@ -1,0 +1,244 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Using Putty &mdash; Hoffman2 Cluster User Guide  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Graphical Environment" href="graphical-terminal.html" />
+    <link rel="prev" title="Text terminal" href="text-terminal.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Hoffman2 Cluster User Guide
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../intro/intro.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Access</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="text-terminal.html">Text terminal</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="text-terminal.html#linux-and-mac">Linux and Mac</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="text-terminal.html#windows">Windows</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Using Putty</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="graphical-terminal.html">Graphical Environment</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../env_modules/index.html">Environment modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../running_jobs/index.html">Running jobs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../programming/index.html">Programming</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data_storage/index.html">Data Storage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file_transfer/index.html">File Transfer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software/index.html">Using software packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/index.html">Advanced topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/index.html">Tutorials</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Hoffman2 Cluster User Guide</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Access</a> &raquo;</li>
+        
+          <li><a href="text-terminal.html">Text terminal</a> &raquo;</li>
+        
+      <li>Using Putty</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/access/using-putty.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="using-putty">
+<h1>Using Putty<a class="headerlink" href="#using-putty" title="Permalink to this headline">¶</a></h1>
+<p><strong>Step 1</strong>. Start PuTTY by double-clicking the PuTTY shortcut icon on your desktop, or double-clicking putty.exe in your PuTTY installation directory. The PuTTY Configuration window will open.</p>
+<p><strong>Step 2</strong>. Enter the host name:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">hoffman2</span><span class="o">.</span><span class="n">idre</span><span class="o">.</span><span class="n">ucla</span><span class="o">.</span><span class="n">edu</span>
+</pre></div>
+</div>
+<p>in the appropriate text entry box and under the Protocol: heading select SSH. Enter Hoffman2 in the Saved Sessions text box.</p>
+<p><strong>Step 3</strong>. On the left side of the window there is a panel labeled Category:. If you see a plus sign (+) next to the word Connection, click on it. It will turn to a minus sign (-) and additional entries will appear under Connection. One of them will be SSH. If you see a plus sign (+) next to the word SSH, click on it. It will turn to a minus sign (-) and additional entries will appear under SSH. Click on SSH in order to modify the SSH connection options.</p>
+<p><strong>Step 4</strong>. Select the 2 radio button under the Preferred SSH Protocol Version: heading.</p>
+<p><strong>Step 5</strong>. If you are going to use PuTTY in conjunction with an X-server:
+Enter the xterm command, as follows, in the Remote command: text box:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">xterm</span> <span class="o">-</span><span class="n">ls</span> <span class="o">-</span><span class="n">sb</span> <span class="o">-</span><span class="n">sl</span> <span class="mi">1000</span>
+</pre></div>
+</div>
+<p>Enable X11 forwarding by clicking on Tunnels in the Category panel at the left. Then make sure Enable X11 forwarding is checked.</p>
+<p><strong>Step 6</strong>.  Click Session in the Category panel at the left. Click the Save button to the right of the Saved Sessions list to save your configuration options.</p>
+<p><strong>Step 7</strong>. Click the Open button at the bottom of the PuTTY Configuration window. The first time you access the cluster, you will see a Security Alert window. You can check the fingerprint shown against Login Node Fingerprints. Click the Yes button.</p>
+<p><strong>Step 8</strong>. A PuTTY login window will appear. Enter your Hoffman2 login ID and password.</p>
+<p><strong>Step 9</strong>. Fix your PuTTY desktop shortcut by right clicking your PuTTY shortcut icon. Select the Properties menu item. Select theShortcut tab. Add &#64;Hoffman2 as the target where Hoffman2 is the name that you entered in the Saved Sessions text box in step 2. Click the OK button. For example:
+Target: “C:Program FilesPuTTY0.52putty.exe” &#64;Hoffman2</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="graphical-terminal.html" class="btn btn-neutral float-right" title="Graphical Environment" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="text-terminal.html" class="btn btn-neutral float-left" title="Text terminal" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
